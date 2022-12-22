@@ -8,7 +8,7 @@ y = size.lines
 x = size.columns
 
 centre = [int(x/2), int(y/2)]
-radius_centre = int(input(f"Input radius (has to be less than {y/2} and {x/2}: "))
+radius_centre = 30
 radius_donut = 3
 
 lightmap = ['.', ',', '!', '-', '+', '*', '/', 'x', '#', '@']
